@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INTERSOFT d.o.o. Sarajevo</title>
+<meta name="description" content="INTERSOFT d.o.o. Sarajevo, izdavač portala Klix.ba. Kontakt i podaci o firmi.">
+<style>
+  :root { --tekst:#1d2433; --siva:#5b6475; --linija:#e3e6ec; --pozadina:#f6f7f9; --kartica:#fff; --akcent:#0b63ce; }
+  @media (prefers-color-scheme: dark) {
+    :root { --tekst:#e8ebf1; --siva:#a3abba; --linija:#2c3240; --pozadina:#12151b; --kartica:#1a1e26; --akcent:#5aa2ff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--pozadina); color:var(--tekst); line-height:1.55; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  h1 { font-size:30px; margin:0 0 4px; letter-spacing:-.01em; }
+  .podnaslov { color:var(--siva); margin:0 0 32px; }
+  .kartica { background:var(--kartica); border:1px solid var(--linija); border-radius:12px; padding:24px; margin-bottom:20px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--siva); margin:0 0 14px; font-weight:600; }
+  dl { display:grid; grid-template-columns:max-content 1fr; gap:8px 20px; margin:0; }
+  dt { color:var(--siva); }
+  dd { margin:0; }
+  a { color:var(--akcent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .portali { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+  .portal { display:block; border:1px solid var(--linija); border-radius:10px; padding:14px 16px; color:var(--tekst); }
+  .portal:hover { border-color:var(--akcent); text-decoration:none; }
+  .portal b { display:block; }
+  .portal span { color:var(--siva); font-size:14px; }
+  footer { color:var(--siva); font-size:13px; text-align:center; margin-top:28px; }
+  @media (max-width:520px) { dl { grid-template-columns:1fr; gap:2px; } dt { margin-top:10px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>INTERSOFT d.o.o. Sarajevo</h1>
+  <p class="podnaslov">Izdavač portala Klix.ba</p>
+
+  <section class="kartica">
+    <h2>Kontakt</h2>
+    <dl>
+      <dt>Adresa</dt><dd>Zmaja od Bosne 7, 71000 Sarajevo<br>Bosna i Hercegovina</dd>
+      <dt>Telefon</dt><dd><a href="tel:+38733263250">+387 33 263 250</a></dd>
+      <dt>Fax</dt><dd>+387 33 263 251</dd>
+      <dt>E-mail</dt><dd><a href="mailto:marketing@klix.ba">marketing@klix.ba</a></dd>
+    </dl>
+  </section>
+
+  <section class="kartica">
+    <h2>Naši portali</h2>
+    <div class="portali">
+      <a class="portal" href="https://www.klix.ba"><b>Klix.ba</b><span>Vijesti</span></a>
+      <a class="portal" href="https://posao.klix.ba"><b>Posao</b><span>posao.klix.ba</span></a>
+      <a class="portal" href="https://nekretnine.klix.ba"><b>Nekretnine</b><span>nekretnine.klix.ba</span></a>
+    </div>
+  </section>
+
+  <section class="kartica">
+    <h2>Podaci o firmi</h2>
+    <dl>
+      <dt>Puni naziv</dt><dd>INTERSOFT Društvo sa ograničenom odgovornošću za računarske usluge, marketing i dizajn d.o.o. Sarajevo</dd>
+      <dt>ID broj</dt><dd>4201139870000</dd>
+      <dt>PDV broj</dt><dd>201139870000</dd>
+      <dt>MBS</dt><dd>65-01-0235-11</dd>
+    </dl>
+  </section>
+
+  <footer>© INTERSOFT d.o.o. Sarajevo</footer>
+</main>
+</body>
+</html>
