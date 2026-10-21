@@ -57,6 +57,8 @@
   .grid { display: grid; gap: 16px; }
   .g2 { grid-template-columns: repeat(2, 1fr); }
   .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+  @media (max-width: 1060px) { .g4 { grid-template-columns: repeat(2, 1fr); } }
   .dept { display: flex; flex-direction: column; gap: 4px; padding: 20px 24px; }
   .dept .label { margin-bottom: 6px; }
   .dept .mail { font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgb(var(--rule)); overflow-wrap: anywhere; }
@@ -91,7 +93,7 @@
   @media (max-width: 820px) {
     .intro { grid-template-columns: 1fr; gap: 22px; padding-top: 32px; }
     .facts { border-left: 0; padding-left: 0; border-top: 1px solid rgb(var(--rule)); padding-top: 18px; gap: 24px; flex-wrap: wrap; }
-    .g2, .g3 { grid-template-columns: 1fr; }
+    .g2, .g3, .g4 { grid-template-columns: 1fr; }
     .lines li { grid-template-columns: 1fr; gap: 0; }
     .top .right { display: none; }
   }
@@ -121,7 +123,7 @@
   <div class="intro">
     <div>
       <h1 class="title">INTERSOFT d.o.o. Sarajevo</h1>
-      <p>Izdavač portala Klix.ba i Klix Posao. Za oglašavanje, vijesti i račune javite se odjelu kojem pitanje pripada.</p>
+      <p>Izdavač portala Klix.ba i Klix Posao. Za oglašavanje, vijesti, oglase za posao i račune javite se odjelu kojem pitanje pripada.</p>
     </div>
     <div class="facts">
       <div class="fact"><b>4201139870000</b><span>ID broj</span></div>
@@ -157,7 +159,7 @@
     </a>
   </section>
 
-  <section class="grid g3">
+  <section class="grid g4">
     <div class="sheet dept">
       <p class="label">Marketing i oglašavanje</p>
       <a class="mail" href="mailto:marketing@klix.ba">marketing@klix.ba</a>
@@ -167,6 +169,11 @@
       <p class="label">Redakcija Klix.ba</p>
       <a class="mail" href="mailto:redakcija@klix.ba">redakcija@klix.ba</a>
       <span class="soft">+387 33 263 245</span>
+    </div>
+    <div class="sheet dept">
+      <p class="label">Klix Posao</p>
+      <a class="mail" href="mailto:posao@klix.ba">posao@klix.ba</a>
+      <span class="soft">+387 33 263 252</span>
     </div>
     <div class="sheet dept">
       <p class="label">Finansije</p>
